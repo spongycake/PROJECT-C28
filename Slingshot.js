@@ -20,6 +20,9 @@ class Slingshot{
     shoot(){
         this.slingshot.bodyA = null;
     }
+    attach(body){
+        this.slingshot.bodyA = body;
+    }
     
     
     display(){
